@@ -1,7 +1,7 @@
 # **About this application**
 This tool was created to allow investigators conducting clinical trials to make educated decisions about the way they proceed with their  trial in light of data collected. Such decisions may take place either at the design stage or as part of a planned interim analysis in an adaptive trial. The tool is devided into separate tabs, to meets the user's needs at different stages of their trial.
 
-A detailed description of the different features of the software and how they can be applied in clinical research can be found in the [**user manual**](BIAS_Manual.pdf).
+A detailed description of the different features of the software and how they can be applied in clinical research can be found in the user manual.
 
 Schematically, the user should use the tool as follows: 
 * For design and analysis of phase II trials based on *Bayesian predictive power* (BPP) - 
@@ -24,7 +24,7 @@ The purpose of this tab is to help investigators design a trial that either invo
 
 For any given cutoff, the software calculates the probability of each arm getting selected, as well as the expected predictive power at interim analysis. Also displayed is the BPP distribution at the end of the first part of the trial. The **Selectivity** criterion - the probability of the best subset being selected, based on the number of treatments the user wishes to proceed with - is evaluated and maximized, with recommendation made to the user. 
 
-To gain insight on the way the different outputs of the software are calculated, read [**the manuscript**](BPP_Paper.pdf).
+To gain insight on the way the different outputs of the software are calculated, read the manuscript.
 
 </div>
 <div style="margin-bottom:35px;">
@@ -41,7 +41,7 @@ In this part of the application the user can insert data summaries (means and st
 Other than the predictive power for prespecified numbers of future patients, the app also allows the user to calculate the number of patients (per arm) required to hit a BPP target.
 
 
-The technical details behind the implementation of the different elements of the software can be found in [**the manuscript**](BPP_Paper.pdf).
+The technical details behind the implementation of the different elements of the software can be found in the manuscript.
 
 </div>
 <div style="margin-bottom:35px;">
