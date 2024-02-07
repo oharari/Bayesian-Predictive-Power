@@ -51,7 +51,7 @@ The technical details behind the implementation of the different elements of the
 ### **Posterior Superiority**
 This part of the software offers the user the chance to apply Bayesian decision rules and response adaptive randomization (RRR) that are based on interim analysis. The trial's goal is to find the best treatment among multiple treatments, and adaptations are made according to the **probability of superiority** of each arm, that is: the posterior probability that said arm is superior to all other study arms. Calculation is based on large Monte Carlo samples drawn from the posterior distributions of the population means of the different study arms. The investigator may set threshold on this number to decide whether the trial can be stopped early, as well as drop study arms that show little promise along the way. 
 
-The allocation probability to arm $i$ (i.e. the proportion of future patients to be randomized to it), whose probability of superiority is $p^{\text{sup}}_i$, is then - 
+The allocation probability to arm $i$ (i.e. the proportion of future patients to be randomized to it), whose probability of superiority is $'p^{\text{sup}}_i'$, is then - 
 $$q_{i} \propto \left(p^{\text{sup}}_i\right)^{\gamma},$$
 where $0\leq\gamma\leq1$ is a parameter selected by the user to balance between no response adaptation ($\gamma = 0$) and "strong" adaptation ($\gamma = 1$). 
 
