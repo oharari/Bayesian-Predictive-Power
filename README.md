@@ -24,7 +24,7 @@ The purpose of this tab is to help investigators design a trial that either invo
 
 For any given cutoff, the software calculates the probability of each arm getting selected, as well as the expected predictive power at interim analysis. Also displayed is the BPP distribution at the end of the first part of the trial. The **Selectivity** criterion - the probability of the best subset being selected, based on the number of treatments the user wishes to proceed with - is evaluated and maximized, with recommendation made to the user. 
 
-To gain insight on the way the different outputs of the software are calculated, read [the manuscript](https://drive.google.com/file/d/1UGx5A97ype7S5_gpoql6nzKdnVUOapWp/view?usp=drive_link).
+To gain insight on the way the different outputs of the software are calculated, read [our 2020 Pharmaceutical Statistics paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/pst.2073) ([preprint available](https://drive.google.com/file/d/1UGx5A97ype7S5_gpoql6nzKdnVUOapWp/view?usp=drive_link)).
 
 </div>
 <div style="margin-bottom:35px;">
